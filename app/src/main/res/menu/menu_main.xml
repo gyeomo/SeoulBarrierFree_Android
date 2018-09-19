@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/menu_tip"
+        android:title="유용한 정보(웹 연결 필요)"
+        />
+
+    <item android:id="@+id/menu_emergency"
+        android:title="긴급/상담전화"
+        />
+    <item android:id="@+id/menu_bookmark"
+        android:title="즐겨찾기"
+        />
+    <item android:id="@+id/menu_settings"
+        android:title="설정"
+        />
+    <item android:id="@+id/menu_help"
+        android:title="도움말"
+        />
+
+</menu>
+
+
+

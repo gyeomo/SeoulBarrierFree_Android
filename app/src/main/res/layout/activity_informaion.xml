@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|top"
+                android:textSize="23dp"
+                android:textColor="#ff000000"
+                android:id="@+id/titleView"
+                android:padding="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bookMarker"
+                android:text="즐겨찾기 추가"
+                android:textSize="18dp"
+                android:textColor="#cfef8888"
+                android:background="#00000000"
+                android:layout_margin="8dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/intentMap"
+                android:text="지도앱에서 보기"
+                android:textSize="18dp"
+                android:textColor="#cfef8888"
+                android:background="#00000000"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="기본정보"
+                android:textStyle="bold"
+                android:textColor="#ff000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/basicInformation"
+                android:padding="8dp"
+                android:textSize="15dp"
+                android:lineSpacingExtra ="7dp"
+                android:textIsSelectable = "true"
+                android:autoLink="phone"
+                android:textColor="#ff000000"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/walkingInformation">
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="330dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ffaaddaa"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#ff000000"
+                    android:text="보행장애"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/walkingText"
+                    android:textColor="#ff000000"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:lineSpacingExtra ="7dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/lightInformation">
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="330dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ffaaddaa"
+                    android:id="@+id/remove4"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="시각장애"
+                    android:textStyle="bold"
+                    android:textColor="#ff000000"
+                    android:id="@+id/remove1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lightText"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"
+                    android:lineSpacingExtra ="7dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/hearingInformation">
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="330dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ffaaddaa"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="청각장애"
+                    android:textStyle="bold"
+                    android:textColor="#ff000000"
+                    android:id="@+id/remove2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearingText"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"
+                    android:lineSpacingExtra ="7dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/youngInformation">
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="330dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ffaaddaa"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="영유아"
+                    android:textStyle="bold"
+                    android:textColor="#ff000000"
+                    android:id="@+id/remove3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/youngText"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"
+                    android:lineSpacingExtra ="7dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/detailInformation">
+                <View
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="330dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dp"
+                    android:background="#ffaaddaa"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="상세정보"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detailText"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:lineSpacingExtra ="7dp"
+                    android:textColor="#ff000000"
+                    android:autoLink="all"
+                    android:textIsSelectable = "true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="left|top"
+         android:textSize="15dp"
+         android:textColor="#79000000"
+         android:padding="8dp"
+         android:id="@+id/informationView"/>-->
+
+</LinearLayout>

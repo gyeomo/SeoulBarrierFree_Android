@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:id="@+id/emergencyButton"
+            android:background="#bbfa5555"
+            android:text="긴급"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:id="@+id/counsellingButton"
+            android:background="#ffffffff"
+            android:text="상담"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/counsellingView"
+            android:visibility="gone">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="장애인 전국 핫라인 전화상담 1588-0420 "
+                android:background="@drawable/colors"
+                android:id="@+id/c1"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="장애인 학대 신고 및 상담, 피해자 지원 1644-8295 "
+                android:background="@drawable/colors"
+                android:id="@+id/c2"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="장애인 권익보호, 재활, 장애가정 청소년 지원 02-3472-3556 "
+                android:background="@drawable/colors"
+                android:id="@+id/c3"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="장애인 무료 온라인 정보화 교육 1588-0814 "
+                android:background="@drawable/colors"
+                android:id="@+id/c4"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="여성 장애인 복지, 인권활동, 상담/쉼터 안내 02-3675-4465"
+                android:background="@drawable/colors"
+                android:id="@+id/c5"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="실종아동찾기 182"
+                android:background="@drawable/colors"
+                android:id="@+id/c6"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="가정폭력, 성폭력, 성매매 긴급 전화상담 및 보호 1366"
+                android:background="@drawable/colors"
+                android:id="@+id/c7"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="노인 인권보호, 노인학대 신고 및 상담 1577-1389"
+                android:background="@drawable/colors"
+                android:id="@+id/c8"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/emergencyView"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="경찰청 112"
+                android:background="@drawable/colors"
+                android:id="@+id/e1"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="119 안전신고센터  119"
+                android:background="@drawable/colors"
+                android:id="@+id/e2"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="해양 긴급 신고 122"
+                android:background="@drawable/colors"
+                android:id="@+id/e3"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="철도 범죄 신고 1588-7722"
+                android:background="@drawable/colors"
+                android:id="@+id/e4"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="서울 120 콜센터 02-120"
+                android:background="@drawable/colors"
+                android:id="@+id/e5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="정부통합 민원서비스 110"
+                android:background="@drawable/colors"
+                android:id="@+id/e6"/>
+        </LinearLayout>
+    </FrameLayout>
+    </ScrollView>
+</LinearLayout>
