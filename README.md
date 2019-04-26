@@ -38,6 +38,6 @@ Information about the business is also loaded through the API.
 
 
 
-<img src="/1.png" width="300" height="450">
+<img src="/1.png" width="250" height="450">
 
 
