@@ -1,9 +1,9 @@
 # SeoulBarrierFree_Android
- It was designed for Seoul Mobile Platform Competition.
+### It was designed for Seoul Mobile Platform Competition.
 
 
 
-The project was submitted to the Seoul City Mobile Platform Competition.
+**The project was submitted to the Seoul City Mobile Platform Competition.**
 
 This application is for the disabled.
 
@@ -22,7 +22,7 @@ You can find what you want by categorizing it by region or industry in Seoul.
 
 
 
-This application is made for Android only.
+### This application is made for Android only.
 
 The business information of Seoul city is parsed through public API.
 
@@ -37,7 +37,7 @@ The menu has various functions.
 Information about the business is also loaded through the API.
 
 
-
-
+C:\Users\canin\work_space
+![Alt text](C:/Users/canin/work_space/picture/1.png)
 
 
