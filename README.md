@@ -38,6 +38,6 @@ Information about the business is also loaded through the API.
 
 
 
-![Alt text](/1.png){: width="100" height="100"}
+<img src="/1.png" width="50" height="50">
 
 
