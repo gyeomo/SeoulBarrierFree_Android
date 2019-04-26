@@ -37,7 +37,6 @@ The menu has various functions.
 Information about the business is also loaded through the API.
 
 
-C:\Users\canin\work_space
-![Alt text](C:/Users/canin/work_space/picture/1.png)
+
 
 
